@@ -1,0 +1,66 @@
+.prev{
+    height: 100vh;  
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    padding: 100px 100px; 
+    background: repeating-linear-gradient( -45deg, lightyellow 0px,  5px, lightyellow 6px, lightyellow 11px, yellow 12px);
+}
+.prev-text{
+    width: 100%;
+    flex-direction: column;
+}
+.prev-title{
+  font-size: 75px;
+  color: black;
+  width: 50%;
+
+}
+.prev-title-sub1{
+    padding: 10px;
+    color: black;
+    width: 95%;
+}
+.work-image{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prev-img1{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    border-radius: 30px;
+    transition: 0.5s all ease-in-out;
+}
+.prev-img1:hover{
+    transform: scale(1.5);
+}
+.prev-desc-1{
+ padding: 50px;
+ font-weight: 800;
+ display: flex;
+ position: relative;
+ 
+}
+.prev-img2{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+.prev-img2:hover{
+    transform: scale(1.3);
+}
+.prev-title-sub2{
+    padding: 10px;
+    color: black;
+    width: 95%;
+}
+.prev-desc-2{
+    padding: 50px 100px;
+    font-weight: 800;
+    
+}

@@ -1,0 +1,70 @@
+.c{
+  height: 100vh;  
+  position: relative;
+}
+.c-bg{
+    width: 20px;  
+    height: 100%;
+    background-color: green;
+    position: absolute;
+}
+.c-wrapper{
+    padding: 50px 100px;
+    display: flex;
+}
+.c-left{
+    flex:1;
+}
+.c-right{
+    flex:1;
+}
+.c-title{
+    width: 80%;
+}
+.c-info-item{
+    display: flex;
+    align-items: center;
+}
+.c-icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.c-desc{
+    font-weight: 300;
+}
+form{
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    
+}
+label{
+    display: inline-block;
+    padding-top: 10px;
+    float: left;
+    clear: left;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+}
+input{
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+
+}
+textarea{
+    width: 100%;
+}
+button{
+    padding: 10px 70px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+}

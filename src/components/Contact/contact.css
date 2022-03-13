@@ -1,5 +1,5 @@
 .c{
-  /*height: 100vh;  */
+  display: flex;
   position: relative;
 }
 .c-bg{
@@ -10,8 +10,15 @@
 }
 .c-wrapper{
     padding: 50px 100px;
+    /*padding-top: 175vh;*/
     display: flex;
-    height: 100vh;
+   
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin:auto; 
 }
 .c-left{
     flex:1;
@@ -25,6 +32,7 @@
 .c-info-item{
     display: flex;
     align-items: center;
+    padding-top: 25vh;
 }
 .c-icon{
     width: 40px;
@@ -104,25 +112,77 @@ button{
       width: 100%;     
     }
 }*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) and (min-height: 40px){
  
     .c-wrapper{
         flex-direction: column;
-        height: 700vh;
+        margin: auto;
+        padding: 0;
+        padding-top: 450vh;
+        font-size: 10px;
+        flex-direction: column;
+        display: block;
+        margin:auto;
+        min-height: 400vh;
+        width: 90%;
     }
     .c-bg{
         display: none;
     }
     .c-left{
-     height: 10vh;
+     height: 50vh;
     }
     .c-title{
+        display: block;
         width: 80%; 
-        height: 150vh; 
+        margin: auto;
+        min-height: 75vh; 
     }
  
     form{
         margin-top: 20px;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        display: block;
+        position: relative;
+        
+    }
+    button{     
+      width: 100%;     
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1000px){
+ 
+    .c-wrapper{
+        margin: auto;
+        padding: 0;
+        padding-top: 300%;
+        font-size: 10px;
+        flex-direction: column;
+        display: block;
+        margin:auto;
+        min-height: 400vh;
+        width: 90%;
+
+    }
+    .c-bg{
+        display: none;
+    }
+    .c-left{
+     height: 80vh;
+     
+    }
+    .c-title{
+        width: 80%; 
+        height: 20vh;
+        margin-top: 20vh; 
+    }
+ 
+    form{
+
+        margin-top: 1000px;
         padding: 20px;
         margin-left: 20px;
         margin-right: 20px;

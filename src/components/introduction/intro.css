@@ -8,6 +8,7 @@
     justify-content: center;
     flex: 1;
     color: darkblue;
+    padding-top:30vh
 
 }
 .i-right{
@@ -21,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 70vh;
 }
 .i-intro{
     font-size: 30px;
@@ -99,10 +101,10 @@
     }
  
 }*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) and (min-height: 40px){
     .i{
         flex-direction: column;
-        padding-top: 1000vh;
+        padding-top: 1020vh;
         /*height: 600vh;*/
     }
     .i-left-wrapper{

@@ -21,18 +21,23 @@ const Contact = () => {
                         <b>Have any comments or a story to share?</b> Get in touch now! 
                     </p>
                     <form>
-                        <label for="username">Username: </label>
-                            <input id="username" type="text"  placeholder="Name" name="user_name"></input>
-                            <br></br>
-                        <label for="subject">Subject: </label>
-                            <input id="subject" type="text"  placeholder="Subject" name="user_subject"></input>
-                        <br></br>
-                        <label for="email">Email: </label>
-                            <input id="email" type="email"  placeholder="Email" name="user_email"></input>
-                        <br></br>
-                        <label for="message">Message: </label>
+                        <div>
+                            <label for="username">Username: </label>
+                            <input id="username" type="text"  placeholder="Full Name" name="username"></input>
+                        </div>
+                        <div>
+                            <label for="subject">Subject: </label>
+                            <input id="subject" type="text"  placeholder="Subject" name="subject"></input>
+                        </div>
+                        <div>
+                            <label for="email">Email: </label>
+                            <input id="email" type="email"  placeholder="Email id" name="email"></input>
+                        </div>
+                        <div>
+                            <label for="message">Message: </label>
                             <textarea id="message" rows="5" placeholder="comments" name="user_message"></textarea>
-                        <button className="button">Submit</button>
+                        </div>
+                        <button type="submit" value="submit" className="button">Submit</button>
                     </form>
                 </div>
             </div>

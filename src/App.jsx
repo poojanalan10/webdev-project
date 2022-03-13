@@ -5,6 +5,8 @@ import ProjectList from "./components/ProjectList/projectList";
 import Contact from "./components/Contact/contact";
 import NavBar from "./components/Navbar/Navbar";
 
+
+
 const App = () => {
   return (
   <div>

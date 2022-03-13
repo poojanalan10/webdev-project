@@ -1,9 +1,10 @@
 .prev{
-    height: 100vh;  
+    width: 100%;
     position: relative;
+    align-items: center;
     display: flex;
-    flex-direction: column; 
-    padding: 100px 100px; 
+    flex-direction: column;
+    margin:auto; 
     background: repeating-linear-gradient( -45deg, lightyellow 0px,  5px, lightyellow 6px, lightyellow 11px, yellow 12px);
 }
 .prev-text{
@@ -28,7 +29,7 @@
     justify-content: space-between;
 }
 .prev-img1{
-    width: 300px;
+    width: 200px;
     height: 150px;
     display: flex;
     border-radius: 30px;
@@ -45,7 +46,7 @@
  
 }
 .prev-img2{
-    width: 200px;
+    width: 150px;
     height: 150px;
     display: flex;
     border-radius: 10px;
@@ -62,5 +63,88 @@
 .prev-desc-2{
     padding: 50px 100px;
     font-weight: 800;
+    display: flex;
+    position: relative;
     
 }
+@media screen and (max-width: 600px){
+    .prev{
+        width: 100%;  
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    .prev-title-sub1{
+        flex-direction: column;
+    }
+    .prev-desc-1{
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        margin-left: 10px;
+        width: 100%;
+        height: 100%;
+    }
+  
+    .prev-desc-2{
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        margin-left: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+/*
+@media screen and (max-width: 1280px){
+    .prev{
+        flex-direction: column;
+        height: 600vh;
+        width: 100%;
+    }
+    .prev-title-sub1{
+        flex-direction: column;
+    }
+    .prev-desc-1{
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        margin-left: 10px;
+        width: 80%;
+        height: 50%;
+    }
+  
+    .prev-desc-2{
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        margin-left: 10px;
+        width: 80%;
+        height: 100%;
+    }
+    .prev-title{
+        font-size: 50px;
+        margin-left: 30px;
+        color: black;
+        width: 50%;
+      
+      }
+    .prev-title-sub1{
+        padding: 10px;
+        color: black;
+        width: 80%;
+    }
+    .prev-title-sub2{
+        padding: 10px;
+        color: black;
+        width: 80%;
+    }
+
+}*/

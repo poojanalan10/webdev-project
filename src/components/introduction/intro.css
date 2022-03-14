@@ -1,5 +1,6 @@
 .i{
     display: flex;
+    background-color: beige;
 }
 .i-left{
 
@@ -8,21 +9,21 @@
     align-items: center;
     justify-content: center;
     color: darkblue;
-    padding-top:30vh
+    padding-top:10vh;
+    
 
 }
-.i-right{
-    flex:1;
-    position:relative;
-}
+
 
 .i-left-wrapper{
-    padding: 50px;
-    height: 50%;
+
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 70vh;
+    padding-bottom: 50vh;
+    justify-content: center;
+    align-items: center;
 }
 .i-intro{
     font-size: 30px;
@@ -33,39 +34,45 @@
     font-size: 60px;
 }
 .i-title{
-    height: 80px;
-    overflow: hidden;
+    padding-top: 10vh;
+    position: relative;
+    animation: opacityinandout 10s ease-in-out infinite alternate;
 }
 
-.i-title-wrapper{
-    height: 100%;
-    width: 100%;
-    animation: scrollmove 15s ease-in infinite alternate;
-}
 
-@keyframes scrollmove {
-    25%{
-        transform: translateY(-30px);
+@keyframes opacityinandout {
+    0%{
+        opacity: 0;
     }
     50%{
-        transform: translateY(-90px);
-    }
-    75%{
-        transform: translateY(-130px);
+        opacity: 1;
     }
     100%{
-        transform: translateY(-200px);
+        opacity: 0;
     }
 }
+
+
 .i-title-item{
-    height: 100px;
-    font-size: 30px;
+    height: 150px;
+    width: 100px;
+    border-style:double;
+    border-color: rgb(130, 230, 255);
+    border-width: 2px;
+    font-size: 70px;
     font-weight: bold;
     color: darkblue;
-    background: linear-gradient(90deg, rgb(114, 122, 235) 0%, rgb(28, 171, 219) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.i-desc{
+    padding-top: 10vh;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
 }
 .i-bg{
     background-color: rgb(95, 190, 95);
@@ -82,24 +89,26 @@
     object-fit:none;
     position: relative;
 }
-@media screen and (max-width: 600px) and (min-height: 40px){
+@media screen and (max-width: 600px) {
     .i{
         flex-direction: column;
-        padding-top: 1020vh;
-        /*height: 600vh;*/
+        height: auto;
+       
     }
     .i-left-wrapper{
         padding: 10px;
         align-items: center;
         justify-content: center;
         text-align: center;
+        height: auto;
        
     }
     .i-desc{
         width: 100%;
+        height: auto;
     }
-    .i-img{
-        width: 100%;
+    .i-title-item{
+        display: none;
     }
  
 }

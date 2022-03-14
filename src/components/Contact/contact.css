@@ -10,7 +10,7 @@
 }
 .c-wrapper{
     padding: 50px 100px;
-    /*padding-top: 175vh;*/
+    padding-top: 100%;
     display: flex;
    
     width: 100%;
@@ -93,35 +93,43 @@ button{
     color: black;
     font-weight: 500;
 }
-@media screen and (max-width: 600px) and (min-height: 40px){
+@media screen and (max-width: 600px) {
  
     .c-wrapper{
         flex-direction: column;
         margin: auto;
         padding: 0;
-        padding-top: 450vh;
+        /*padding-top: 450vh;*/
+        height: auto;
         font-size: 10px;
         flex-direction: column;
         display: block;
         margin:auto;
-        min-height: 400vh;
+       /* min-height: 400vh;*/
         width: 90%;
     }
     .c-bg{
         display: none;
     }
-    .c-left{
-     height: 50vh;
+   /* .c-left{
+     height: auto;
+    }*/
+    .c-info-item{
+        height: auto;
+        color:darkblue;
+        margin-top: 20vh;
     }
     .c-title{
         display: block;
         width: 80%; 
         margin: auto;
-        min-height: 75vh; 
+        height: auto;
+       /* min-height: 75vh; */
     }
  
     form{
-        margin-top: 20px;
+       /* margin-top: 20px;*/
+        height: auto;
         padding: 20px;
         margin-left: 20px;
         margin-right: 20px;
@@ -144,7 +152,7 @@ button{
         flex-direction: column;
         display: block;
         margin:auto;
-        min-height: 400vh;
+        height: auto;
         width: 90%;
 
     }
@@ -152,7 +160,7 @@ button{
         display: none;
     }
     .c-left{
-     height: 80vh;
+    height: auto;
      
     }
     .c-title{
@@ -177,17 +185,17 @@ button{
     }
 }
 
-@media screen and (min-width: 1001px) and (max-width: 1200px) {
+@media screen and (min-width: 1001px)and (max-width: 2000px){
  
     .c-wrapper{
         margin: auto;
         padding: 0;
-        padding-top: 50%;
-        font-size: 10px;
+        padding-top: auto;
+        font-size: 15px;
         flex-direction: column;
         display: block;
         margin:auto;
-        min-height: 400vh;
+        height: auto;
         width: 80%;
 
     }
@@ -195,18 +203,19 @@ button{
         display: none;
     }
     .c-left{
-     height: 40vh;
+    /* height: 40vh;*/
+     height: auto;
      
     }
     .c-title{
         width: 80%; 
-        height: 20vh;
-        margin-top: 20vh; 
+        height: auto;
+        margin-top: auto; 
     }
  
     form{
 
-        margin-top: 100px;
+        margin-top: auto;
         padding: 20px;
         margin-left: 20px;
         margin-right: 20px;

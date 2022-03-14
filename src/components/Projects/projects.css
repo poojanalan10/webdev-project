@@ -54,6 +54,7 @@
         align-items: center;
         text-align: center;
         width: 100%;
+        height: auto;
     }
     .p-desc{
         width: 80%;

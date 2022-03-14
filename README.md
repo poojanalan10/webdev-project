@@ -29,4 +29,5 @@ REFERENCES:
 2. https://github.com/safak/youtube.git
 3. https://www.youtube.com/watch?v=hQjlM-8C4Ps
 4. https://github.com/gitname/react-gh-pages
+5. https://dev.to/ziratsu/code-a-responsive-navbar-with-react-45le
 

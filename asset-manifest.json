@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/webdev-project/static/css/main.f419fd80.chunk.css",
-    "main.js": "/webdev-project/static/js/main.d1b15a33.chunk.js",
-    "main.js.map": "/webdev-project/static/js/main.d1b15a33.chunk.js.map",
+    "main.css": "/webdev-project/static/css/main.59aea79b.chunk.css",
+    "main.js": "/webdev-project/static/js/main.18ca8e36.chunk.js",
+    "main.js.map": "/webdev-project/static/js/main.18ca8e36.chunk.js.map",
     "runtime-main.js": "/webdev-project/static/js/runtime-main.15d38a76.js",
     "runtime-main.js.map": "/webdev-project/static/js/runtime-main.15d38a76.js.map",
     "static/js/2.3da0c1bf.chunk.js": "/webdev-project/static/js/2.3da0c1bf.chunk.js",
     "static/js/2.3da0c1bf.chunk.js.map": "/webdev-project/static/js/2.3da0c1bf.chunk.js.map",
     "index.html": "/webdev-project/index.html",
-    "static/css/main.f419fd80.chunk.css.map": "/webdev-project/static/css/main.f419fd80.chunk.css.map",
+    "static/css/main.59aea79b.chunk.css.map": "/webdev-project/static/css/main.59aea79b.chunk.css.map",
     "static/js/2.3da0c1bf.chunk.js.LICENSE.txt": "/webdev-project/static/js/2.3da0c1bf.chunk.js.LICENSE.txt",
     "static/media/PSU.335e2db1.jpg": "/webdev-project/static/media/PSU.335e2db1.jpg",
     "static/media/cs.2438db3b.png": "/webdev-project/static/media/cs.2438db3b.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.15d38a76.js",
     "static/js/2.3da0c1bf.chunk.js",
-    "static/css/main.f419fd80.chunk.css",
-    "static/js/main.d1b15a33.chunk.js"
+    "static/css/main.59aea79b.chunk.css",
+    "static/js/main.18ca8e36.chunk.js"
   ]
 }

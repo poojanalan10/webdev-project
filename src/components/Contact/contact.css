@@ -177,7 +177,7 @@ button{
     }
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
  
     .c-wrapper{
         margin: auto;

@@ -82,3 +82,34 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 1001px){
+    .pl{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+       
+    }
+    .pl-desc{
+        text-align: left;
+        align-items: left;
+       
+    
+    }
+    .pl-title{
+        font-size: 30px;
+        align-items: left;
+        text-align: left;
+        width: 100%;
+    }
+    .pl-list{
+        width: 100%;
+        font-size: 10px;
+        padding-bottom: 100vh;
+    
+    }
+    .space{
+        display: none;
+    }
+}

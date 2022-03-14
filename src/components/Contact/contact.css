@@ -92,26 +92,7 @@ button{
     background-color: orange;
     color: black;
     font-weight: 500;
-}/*
-@media screen and (max-width: 480px){
-    .c-wrapper{
-        flex-direction: column;
-       
-    }
-    form{
-        margin-top: 20px;
-        padding: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 15px;
-        display: block;
-        position: relative;
-        
-    }
-    button{     
-      width: 100%;     
-    }
-}*/
+}
 @media screen and (max-width: 600px) and (min-height: 40px){
  
     .c-wrapper{
@@ -183,6 +164,49 @@ button{
     form{
 
         margin-top: 1000px;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        display: block;
+        position: relative;
+        
+    }
+    button{     
+      width: 100%;     
+    }
+}
+
+@media screen and (min-width: 1001px) {
+ 
+    .c-wrapper{
+        margin: auto;
+        padding: 0;
+        padding-top: 50%;
+        font-size: 10px;
+        flex-direction: column;
+        display: block;
+        margin:auto;
+        min-height: 400vh;
+        width: 80%;
+
+    }
+    .c-bg{
+        display: none;
+    }
+    .c-left{
+     height: 40vh;
+     
+    }
+    .c-title{
+        width: 80%; 
+        height: 20vh;
+        margin-top: 20vh; 
+    }
+ 
+    form{
+
+        margin-top: 100px;
         padding: 20px;
         margin-left: 20px;
         margin-right: 20px;

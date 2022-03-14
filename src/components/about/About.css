@@ -1,85 +1,77 @@
-.a{
-   
-    display: flex;
-    align-items: center;
+.a {
+  display: flex;
+  align-items: center;
 }
-.a-left{
-    flex:1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100vh;
-
+.a-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
 }
-.a-right{
-    flex:1;
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+.a-right {
+  flex: 1;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.a-card.bg{
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    background-color: gray;
-    height: 100%;
-    width: 50%;
+.a-card.bg {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  background-color: gray;
+  height: 100%;
+  width: 50%;
 }
-.a-card{
-    width: 60%;
-    height: 50vh;
-    border-radius: 30px;
-    position: relative;
-    overflow: hidden;
+.a-card {
+  width: 60%;
+  height: 50vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
 }
-.a-img{
-    background: url(../../img/girl-bg.jpg) no-repeat;
-    width: 100%;
-    padding-top: 70%;
-    background-size:cover ;
-    object-fit:none;
+.a-img {
+  background: url(../../img/girl-bg.jpg) no-repeat;
+  width: 100%;
+  padding-top: 70%;
+  background-size: cover;
+  object-fit: none;
 }
-.a-sub{
-    margin-top: 20px;
-    font-style: italic;
-    font-weight: 500;
+.a-sub {
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: 500;
 }
-.a-desc{
-    margin-top: 20px;
-    display: flex;
-    position: relative;
+.a-desc {
+  margin-top: 20px;
+  display: flex;
+  position: relative;
 }
-@media screen and (max-width:600px) {
-    .a{
-        flex-direction: column;
-        text-align: center;
-        margin-top: 50px;
-        height: auto;
-       /* height: 200vh;*/
-    }
-    .a-left{
-        width: 100%;
-        height: auto;
-    }
-    .a-card{
-        width: 100%;
-        
-    }
-    .a-card.bg{
-        display: none;
-        height: auto;
-    }  
-
-}
-@media screen and (min-width:601px) and (max-width:1000px){
-    
-    .a-left {
-       height: auto;
-    }
-  .a-card{
-      height: auto;
+@media screen and (max-width: 600px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    height: auto;
   }
-
+  .a-left {
+    width: 100%;
+    height: auto;
+  }
+  .a-card {
+    width: 100%;
+  }
+  .a-card.bg {
+    display: none;
+    height: auto;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .a-left {
+    height: auto;
+  }
+  .a-card {
+    height: auto;
+  }
 }

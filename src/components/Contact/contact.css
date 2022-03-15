@@ -1,221 +1,206 @@
-.c{
+.c {
   display: flex;
   position: relative;
 }
-.c-bg{
-    width: 20px;  
-    height: 100%;
-    background-color: green;
-    position: absolute;
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: green;
+  position: absolute;
 }
-.c-wrapper{
-    padding: 50px 100px;
-    display: flex;
-    width: 100%;
-    position: relative;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin:auto; 
+.c-wrapper {
+  padding: 50px 100px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
-.c-left{
-    flex:1;
+.c-left {
+  flex: 1;
 }
-.c-right{
-    flex:1;
+.c-right {
+  flex: 1;
 }
-.c-title{
-    width: 80%;
+.c-title {
+  width: 80%;
 }
-.c-info-item{
-    display: flex;
-    align-items: center;
-    padding-top: 25vh;
+.c-info-item {
+  display: flex;
+  align-items: center;
+  padding-top: 25vh;
 }
-.c-icon{
-    width: 40px;
-    height: 40px;
-    margin-right: 20px;
+.c-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
 }
-.c-desc{
-    font-weight: 300;
+.c-desc {
+  font-weight: 300;
 }
-.c-title{
-    width: 80%; 
-    height: 5vh; 
+.c-title {
+  width: 80%;
+  height: 5vh;
 }
 
-form{
-    margin-top: 20px;
+form {
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 15px;
+  display: block;
+  position: relative;
+}
+label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  display: block;
+  text-align: right;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  clear: left;
+  height: 25px;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 100%;
+}
+button {
+  padding: 5px 10px 8px 10px;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+  cursor: pointer;
+  width: 25%;
+  border-radius: 5px;
+  margin: 5px;
+}
+.button:hover {
+  background-color: orange;
+  color: black;
+  font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+  .c-wrapper {
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    height: auto;
+    font-size: 10px;
+    flex-direction: column;
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+  .c-bg {
+    display: none;
+  }
+
+  .c-info-item {
+    height: auto;
+    color: darkblue;
+    margin-top: 20vh;
+  }
+  .c-title {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: auto;
+  }
+
+  form {
+    height: auto;
     padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 15px;
     display: block;
     position: relative;
-    
+  }
+  button {
+    width: 100%;
+  }
 }
-label{
-    display: inline-block;
-    float: left;
-    clear: left;
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .c-wrapper {
+    margin: auto;
+    padding: 0;
+    padding-top: 300%;
+    font-size: 10px;
+    flex-direction: column;
     display: block;
-    text-align: right;
-    font-weight: bold;
-}
-input{
-    width: 100%;
-    display: inline-block;
-    float: left;
-    clear: left;
-    height: 25px;
-    margin-bottom: 20px;
-
-}
-textarea{
-    width: 100%;
-}
-button{
-    padding: 5px 10px 8px 10px;
-    margin-top: 20px;
-    background-color: green;
-    color: white;
-    font-weight: 500;
-    font-size: large;
-    cursor: pointer;
-    width: 25%;
-    border-radius: 5px;
-    margin: 5px;
-    
-}
-.button:hover{
-    background-color: orange;
-    color: black;
-    font-weight: 500;
-}
-@media screen and (max-width: 600px) {
- 
-    .c-wrapper{
-        flex-direction: column;
-        margin: auto;
-        padding: 0;
-        height: auto;
-        font-size: 10px;
-        flex-direction: column;
-        display: block;
-        margin:auto;
-        width: 90%;
-    }
-    .c-bg{
-        display: none;
-    }
- 
-    .c-info-item{
-        height: auto;
-        color:darkblue;
-        margin-top: 20vh;
-    }
-    .c-title{
-        display: block;
-        width: 80%; 
-        margin: auto;
-        height: auto;
-    }
- 
-    form{
-        height: auto;
-        padding: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 15px;
-        display: block;
-        position: relative;
-        
-    }
-    button{     
-      width: 100%;     
-    }
-}
-@media screen and (min-width: 601px) and (max-width: 1000px){
- 
-    .c-wrapper{
-        margin: auto;
-        padding: 0;
-        padding-top: 300%;
-        font-size: 10px;
-        flex-direction: column;
-        display: block;
-        margin:auto;
-        height: auto;
-        width: 90%;
-
-    }
-    .c-bg{
-        display: none;
-    }
-    .c-left{
+    margin: auto;
     height: auto;
-     
-    }
-    .c-title{
-        width: 80%; 
-        height: 20vh;
-        margin-top: 20vh; 
-    }
- 
-    form{
+    width: 90%;
+  }
+  .c-bg {
+    display: none;
+  }
+  .c-left {
+    height: auto;
+  }
+  .c-title {
+    width: 80%;
+    height: 20vh;
+    margin-top: 20vh;
+  }
 
-        margin-top: 1000px;
-        padding: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 15px;
-        display: block;
-        position: relative;
-        
-    }
-    button{     
-      width: 100%;     
-    }
+  form {
+    margin-top: 1000px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: block;
+    position: relative;
+  }
+  button {
+    width: 100%;
+  }
 }
 
-@media screen and (min-width: 1001px)and (max-width: 2000px){
- 
-    .c-wrapper{
-        margin: auto;
-        padding: 0;
-        padding-top: 100%;
-        font-size: 15px;
-        flex-direction: column;
-        display: block;
-        margin:auto;
-        height: auto;
-        width: 80%;
+@media screen and (min-width: 1001px) and (max-width: 2000px) {
+  .c-wrapper {
+    margin: auto;
+    padding: 0;
+    padding-top: 100%;
+    font-size: 15px;
+    flex-direction: column;
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 80%;
+  }
+  .c-bg {
+    display: none;
+  }
+  .c-left {
+    height: auto;
+  }
+  .c-title {
+    width: 80%;
+    height: auto;
+    margin-top: auto;
+  }
 
-    }
-    .c-bg{
-        display: none;
-    }
-    .c-left{
-     height: auto;
-     
-    }
-    .c-title{
-        width: 80%; 
-        height: auto;
-        margin-top: auto; 
-    }
- 
-    form{
-
-        margin-top: auto;
-        padding: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 15px;
-        display: block;
-        position: relative;
-        
-    }
-    button{     
-      width: 100%;     
-    }
+  form {
+    margin-top: auto;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: block;
+    position: relative;
+  }
+  button {
+    width: 100%;
+  }
 }

@@ -3,11 +3,11 @@ import EmailIcon from "../../img/email.jpg";
 
 const Contact = () => {
   return (
-    <div className="c" id="c">
+    <div className="c">
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title"> What's up with your project?</h1>
+          <h1 className="c-title" id="ContactMe"> What's up with your project?</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={EmailIcon} alt="email icon" className="c-icon"></img>

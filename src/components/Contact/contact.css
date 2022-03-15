@@ -10,7 +10,6 @@
 }
 .c-wrapper{
     padding: 50px 100px;
-   /* padding-top: 100%;*/
     display: flex;
     width: 100%;
     position: relative;
@@ -98,21 +97,17 @@ button{
         flex-direction: column;
         margin: auto;
         padding: 0;
-        /*padding-top: 450vh;*/
         height: auto;
         font-size: 10px;
         flex-direction: column;
         display: block;
         margin:auto;
-       /* min-height: 400vh;*/
         width: 90%;
     }
     .c-bg{
         display: none;
     }
-   /* .c-left{
-     height: auto;
-    }*/
+ 
     .c-info-item{
         height: auto;
         color:darkblue;
@@ -123,11 +118,9 @@ button{
         width: 80%; 
         margin: auto;
         height: auto;
-       /* min-height: 75vh; */
     }
  
     form{
-       /* margin-top: 20px;*/
         height: auto;
         padding: 20px;
         margin-left: 20px;
@@ -189,7 +182,7 @@ button{
     .c-wrapper{
         margin: auto;
         padding: 0;
-        padding-top: auto;
+        padding-top: 100%;
         font-size: 15px;
         flex-direction: column;
         display: block;
@@ -202,7 +195,6 @@ button{
         display: none;
     }
     .c-left{
-    /* height: 40vh;*/
      height: auto;
      
     }
